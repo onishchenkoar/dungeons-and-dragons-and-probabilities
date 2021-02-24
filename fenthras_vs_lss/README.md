@@ -3,4 +3,4 @@
 
 `fen_lss.csv` &mdash; a CSV with results in the format "setting parameters -> winner". Columns: Rounds, Target AC, STR save, Winner  
 
-[Fenthras vs LSS](./pie.png)
+![Fenthras vs LSS](./pie.png)
