@@ -3,7 +3,7 @@ import numpy as np
 from scipy.stats._distn_infrastructure import rv_sample
 
 
-class My_rv(rv_sample):
+class My_rv(rv_sample):https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/network/members
   """Scipy's rv_discrete that can do addition and multiplication of RVs."""
 
   def __new__(cls, values=None):
@@ -58,7 +58,7 @@ class My_rv(rv_sample):
     return My_rv(values=(self.xk // other, self.pk))
 
   def plot(self, *args, **kwargs):
-    plt.bar(self.xk, self.pk, *args, **kwargs)
+    plt.bar(self.xk, self.pk, snap=False, *args, **kwargs)
 
 
 def d20_outcome(d20, threshold, modifier=0, bonus_dice=[],
