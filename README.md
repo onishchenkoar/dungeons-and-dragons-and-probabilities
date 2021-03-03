@@ -7,4 +7,6 @@ Probability calculations for different DnD things
 
 [CR_E71_Gate_scroll_roll.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/CR_E71_Gate_scroll_roll.ipynb) &mdash; is d20 with advantage + d12 Inspiration + 8 a risky roll against DC 19? This is a pivotal moment in [episode 71](https://youtu.be/-I_tnzBKSWk) of Critical Role.
 
+[Two_ways_to_calculate_critical_hit_damage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Two_ways_to_calculate_critical_hit_damage.ipynb) &mdash; a quick comparison of Player's Handbook vs. Critical Role calculation of damage.
+
 [dndrv.py](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/dndrv.py) &mdash; I define a class for a discrete random variable that allows addition, subtraction, and multiplication with other discrete random variables. Uses NumPy, SciPy, matplotlib.
