@@ -19,8 +19,13 @@ Probability calculations for different DnD things
 
 
 ## General DnD mechanics
+
 [Two_ways_to_calculate_critical_hit_damage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Two_ways_to_calculate_critical_hit_damage.ipynb) &mdash; a quick comparison of Player's Handbook vs. Critical Role way of calculating critical damage.
 
 [Vanishing_advantage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Vanishing_advantage.ipynb) &mdash; when player's advantage on an attack depends on target's saving throws.
 
 [dndrv.py](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/dndrv.py) &mdash; I define a class for a discrete random variable that allows addition, subtraction, and multiplication with other discrete random variables. Uses NumPy, SciPy, matplotlib.
+
+[Animate_Objects_and_War_Caster_vs_Resilient.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_Objects_and_War_Caster_vs_Resilient.ipynb) &mdash; to be finished. An unformatted notebook in which I have researched two problems:
+1. What is an average damage of 10 tiny objects produced by Animated Objects spell against different levels of Armor Class (*considers the probability to hit and of critical damage*).
+2. When is Resilient feat better for concentration than War Caster feat?
