@@ -11,7 +11,7 @@ Probability calculations for different DnD things
 [dndrv.py](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/dndrv.py) &mdash; I define a class for a discrete random variable that allows addition, subtraction, and multiplication with other discrete random variables. Uses NumPy, SciPy, matplotlib.
 
 [Animate_Objects_and_War_Caster_vs_Resilient.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_Objects_and_War_Caster_vs_Resilient.ipynb) &mdash; to be finished. An unformatted notebook in which I have researched two problems:
-1. What is an average damage of 10 tiny objects produced by Animated Objects spell against different levels of Armor Class (*considers the probability to hit and the probability of critical damage*).
+1. What is an average damage of 10 tiny animated objects (as in [Animate Objects](https://roll20.net/compendium/dnd5e/Animate%20Objects#content) spell) against different levels of Armor Class (*considers the probability to hit and the probability of critical damage*).
 2. When is Resilient feat better for concentration than War Caster feat?
 
 
