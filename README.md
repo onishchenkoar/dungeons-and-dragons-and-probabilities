@@ -15,7 +15,7 @@ Probability calculations for different DnD things
 2. When is Resilient feat better for concentration than War Caster feat?
 
 
-## CritRoleStats - All Rolls - Tal'Dorei table
+## CritRoleStats: All Rolls - Tal'Dorei table
 [Cleanup_All_Rolls_TalDorei.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Cleanup_All_Rolls_TalDorei.ipynb) &mdash; cleanup of [All Rolls - Tal'Dorei table](https://docs.google.com/spreadsheets/d/1OEg29XbL_YpO0m5JrLQpOPYTnxVsIg8iP67EYUrtRJg/edit?usp=sharing).
 
 [All_Rolls_TalDorei_EDA.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/All_Rolls_TalDorei_EDA.ipynb) &mdash; exploratary data analysis of the first campaign of Critical Role.
