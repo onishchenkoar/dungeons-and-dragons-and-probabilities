@@ -10,7 +10,7 @@ Probability calculations for different DnD things
 
 [Vanishing_advantage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Vanishing_advantage.ipynb) &mdash; when player's advantage on an attack depends on target's saving throws.
 
-[Animate Objects] &mdash; the best choice of objects for Animate Objects spell in terms of damage.
+[Animate Objects](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_objects.ipynb) &mdash; the best choice of objects for Animate Objects spell in terms of damage.
 
 [Animate_Objects_and_War_Caster_vs_Resilient.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_Objects_and_War_Caster_vs_Resilient.ipynb) &mdash; to be finished. An unformatted notebook in which I have researched two problems:
 1. What is an average damage of 10 tiny animated objects (as in [Animate Objects](https://roll20.net/compendium/dnd5e/Animate%20Objects#content) spell) against different levels of Armor Class (*considers the probability to hit and the probability of critical damage*).
