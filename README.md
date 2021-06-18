@@ -8,7 +8,7 @@ Probability calculations for different DnD things
 
 [Two_ways_to_calculate_critical_hit_damage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Two_ways_to_calculate_critical_hit_damage.ipynb) &mdash; a quick comparison of Player's Handbook vs. Critical Role way of calculating critical damage.
 
-[Roll_for_stats.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Roll_for_stats.ipynb) &mdash; the distribution of ability scores you get with summing the 3 highest values in 4d6.
+[Roll_for_stats.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Roll_for_stats.ipynb) &mdash; the distribution of ability scores you get by summing the 3 highest values in 4d6.
 
 [Vanishing_advantage.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Vanishing_advantage.ipynb) &mdash; when player's advantage on an attack depends on target's saving throws.
 
