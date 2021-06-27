@@ -14,9 +14,7 @@ Probability calculations for different DnD things
 
 [Animate_objects.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_objects.ipynb) &mdash; the best choice of objects for Animate Objects spell in terms of damage.
 
-[Animate_Objects_and_War_Caster_vs_Resilient.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_Objects_and_War_Caster_vs_Resilient.ipynb) &mdash; to be finished. An unformatted notebook in which I have researched two problems:
-1. What is an average damage of 10 tiny animated objects (as in [Animate Objects](https://roll20.net/compendium/dnd5e/Animate%20Objects#content) spell) against different levels of Armor Class (*considers the probability to hit and the probability of critical damage*).
-2. When is Resilient feat better for concentration than War Caster feat?
+[War_Caster_vs_Resilient.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/Animate_Objects_and_War_Caster_vs_Resilient.ipynb) &mdash; when is Resilient feat better for concentration than War Caster feat?
 
 ## Critical Role
 [fenthras_vs_lss.ipynb](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/fenthras_vs_sky_sentinel/fenthras_vs_lss.ipynb) &mdash; numerical analysis of two longbows from Critical Role, following [a discussion](https://www.reddit.com/r/criticalrole/comments/59fans/spoilers_e72_what_is_the_difference_in_damage/) on Reddit. I generate different conditions and compare average damages dealt by each of the bows.
