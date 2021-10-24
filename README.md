@@ -1,18 +1,6 @@
 # dungeons-and-dragons-and-probabilities
 Probability calculations for different DnD things
 
-|Название параметра|Описание|Алгоритм расчета|
-|:---|:---|:---|
-|`rule_0`|Отбор транзакций за год| \
-```sql \
-    fti.transaction_date BETWEEN (today-kyc1_date_frame, today-1) \
-    AND fti.transaction_cdi_code = 'C' \
-```|
-|`rule_1`|Проверка операций по зачислению ДС|```sql SUM(fti.currency_amount) / (AML_KYCpd.party_revenue_crm * 12) > kyc1_A1_limit \GROUP BY pd.party_number```|
-|`rule_2`|Проверка операций по наличному зачислению, вкладам, депозитам ДС|```sql SUM(fti.currency_amount) / (AML_KYCpd.party_revenue_crm * 12) > kyc1_B1_limit WHERE FSC_TRANSACTION_DIM.funds_type_ind = 5 OR SUBSTR(fti.account_number,1,3) IN (kyc1_B1_deposit) \GROUP BY pd.party_number```|
-|`rule_3`|Проверка второй по величине операции по кредиту|```sql top2(fti.currency_amount) / (AML_KYCpd.party_revenue_crm * 12) >= kyc1_C1_2_limit \ GROUP BY pd.party_number```|
-
-
 ## General DnD mechanics
 
 [dndrv.py](https://github.com/onishchenkoar/dungeons-and-dragons-and-probabilities/blob/main/dndrv.py) &mdash; I define a class for a discrete random variable that allows addition, subtraction, and multiplication with other discrete random variables. Also has a function that returns a binary random variable for a d20 roll. Uses NumPy, SciPy, matplotlib.
